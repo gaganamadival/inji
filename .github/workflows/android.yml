@@ -8,6 +8,7 @@ on:
       - demobranch
       - qa-develop
       - 0.9
+      - onprem-v0.9
     tags:
       - '*'
 
