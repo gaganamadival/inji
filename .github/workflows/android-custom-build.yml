@@ -17,7 +17,7 @@ on:
       esignetBackendServiceUrl:
         description: 'Esignet backend service URL'
         required: true
-        default: 'https://api.api.onpremdev.idencode.link'
+        default: 'https://api.onpremdev.idencode.link'
         type: string
       allow_env_edit:
         description: 'Edit ENV'
