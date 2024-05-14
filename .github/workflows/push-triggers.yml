@@ -7,6 +7,7 @@ on:
     - develop
     - qa-develop
     - 'release-**'
+    - onprem
   release:
     types: [published]
   pull_request:
@@ -15,6 +16,7 @@ on:
     - main
     - develop
     - qa-develop
+    - onprem
     - 'release-**'
 
 jobs:
