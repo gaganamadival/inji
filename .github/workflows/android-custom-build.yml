@@ -51,6 +51,7 @@ jobs:
         ANDROID_SERVICE_LOCATION: 'android'
         BUILD_SCRIPT_LOCATION: 'scripts'
         SCRIPT_NAME: './android-build.sh'
+        
         UPLOAD_TO_ACTIONS: 'true'
         ANDROID_ARTIFACT_NAME: ${{ inputs.buildName }}
         ANDROID_ARTIFACT_PATH: "android/app/build/outputs/apk/residentapp/release/Inji_universal.apk"
